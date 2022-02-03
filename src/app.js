@@ -50,7 +50,7 @@ form.addEventListener('submit', async function (e) {
         params: { q: searchTerm },
         headers: {
             'x-rapidapi-host': 'imdb8.p.rapidapi.com',
-            'x-rapidapi-key': 'You rapidapi key'
+            'x-rapidapi-key': 'Your rapidapi key'
         }
     };
     axios.request(options).then(function (response) {
